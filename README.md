@@ -1,16 +1,21 @@
-# Illan — links oficiais
+# Illan Carvalho — links oficiais
 
-Static, dependency-free personal links hub for Illan.
+Static, dependency-free personal links hub for Illan Carvalho.
 
-Current redesign direction:
+## Current direction
 
-- Comedy-fan / follower-first audience.
+- Creator/follower-first, with a compact link-in-bio information hierarchy.
 - Primary CTA: Open Mic RPG.
-- Copy language: Portuguese (pt-BR).
-- Visual identity: blue pixel/CRT system shared with the sibling developer portfolio.
-- Intended future hostname: `links.sitedoillan.com.br`.
+- Portuguese (pt-BR) copy.
+- Blue pixel/CRT identity shared with the sibling developer portfolio.
+- One narrow vertical flow: compact profile → priority CTA → main links → secondary comedy channels → current projects/sites → contact.
+- Current public project links include Will's Locadora, Encounters Guide v1.0.1, CCAPP, and GitHub.
 
-Important deployment note: this repository still contains the old `CNAME` until Illan explicitly authorizes DNS / GitHub Pages changes. Do not push, deploy, edit CNAME, or change DNS without approval.
+## Repository
+
+- GitHub: https://github.com/illanrego/Links
+- Static implementation: `index.html` + `styles.css`
+- No build step or client-side JavaScript.
 
 ## Local development
 
@@ -25,3 +30,7 @@ Then open `http://127.0.0.1:4178/`.
 ```bash
 python3 scripts/static-checks.py
 ```
+
+## Deployment note
+
+`CNAME` still contains the historical `www.sitedoillan.com.br`. The intended links hostname remains unresolved. Do not change CNAME, DNS, GitHub Pages, push, or deploy without Illan's explicit approval.
