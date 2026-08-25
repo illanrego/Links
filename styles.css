@@ -141,7 +141,9 @@ img {
 }
 
 .profile-copy {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-items: center;
   gap: 0.34rem;
 }
@@ -193,6 +195,53 @@ h1 {
   color: #d8e8ff;
   font-size: 1.28rem;
   line-height: 1.18;
+}
+
+.profile-socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.22rem;
+}
+
+.profile-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  color: var(--paper);
+  background: var(--blue);
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  text-decoration: none;
+}
+
+.profile-socials a:hover,
+.profile-socials a:focus-visible {
+  background: #4f83ff;
+}
+
+.profile-socials a:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.profile-socials .link-icon {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: transparent;
+}
+
+.profile-socials .media-icon::before {
+  width: 28px;
+  height: 28px;
 }
 
 .priority {
@@ -288,6 +337,14 @@ h1 {
 
 .x-icon::before {
   background-image: url("imagens/x-pixelated.jpeg");
+}
+
+.github-icon::before {
+  background-image: url("imagens/github-pixelated.png");
+}
+
+.wills-locadora-icon::before {
+  background-image: url("imagens/wills-locadora-pixel-icon.png");
 }
 
 .link-arrow {
