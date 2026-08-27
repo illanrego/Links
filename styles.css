@@ -169,7 +169,7 @@ img {
   margin: 0;
   color: var(--cyan);
   font-family: "Silkscreen", monospace;
-  font-size: 0.62rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
@@ -183,6 +183,7 @@ h2 {
 
 h1 {
   margin-top: 0.1rem;
+  margin-botto: -20px;
   color: var(--paper);
   font-size: clamp(1.05rem, 5vw, 1.55rem);
   line-height: 1.2;
@@ -201,11 +202,11 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 0.4rem;
+  gap: 0.05rem;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin-top: 0.22rem;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .profile-socials a {
@@ -216,20 +217,11 @@ h1 {
   width: 42px;
   height: 42px;
   color: var(--paper);
-  background: var(--blue);
-  border: 2px solid var(--ink);
-  box-shadow: 3px 3px 0 var(--ink);
   text-decoration: none;
 }
 
-.profile-socials a:hover,
-.profile-socials a:focus-visible {
-  background: #4f83ff;
-}
-
 .profile-socials a:active {
-  transform: translate(3px, 3px);
-  box-shadow: 1px 1px 0 var(--ink);
+  transform: translate(2px, 2px);
 }
 
 .profile-socials .link-icon {
@@ -281,6 +273,18 @@ h1 {
 .link-row:hover,
 .link-row:focus-visible {
   background: var(--row-bg-hover);
+}
+
+.link-row-locked {
+  opacity: 0.62;
+}
+.link-row-locked:hover,
+.link-row-locked:focus-visible {
+  background: var(--row-bg);
+  cursor: not-allowed;
+}
+.link-row-locked .link-icon {
+  filter: grayscale(0.6);
 }
 
 .priority-link:hover,
@@ -345,6 +349,16 @@ h1 {
 
 .wills-locadora-icon::before {
   background-image: url("imagens/wills-locadora-pixel-icon.png");
+}
+
+.comics-legendados-icon::before {
+  background-image: url("imagens/comics-legendados-icon.jpg");
+  background-size: cover;
+}
+
+.avatar1-icon::before {
+  background-image: url("imagens/avatar1-icon.png");
+  background-size: cover;
 }
 
 .link-arrow {
@@ -484,7 +498,7 @@ h1 {
 
   .identity-line,
   .section-kicker {
-    font-size: 0.56rem;
+    font-size: 0.8rem;
   }
 
   .priority-link,

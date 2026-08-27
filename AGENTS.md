@@ -49,3 +49,20 @@ python3 -m http.server 4178 --bind 127.0.0.1
 ```
 
 Keep the site static and dependency-free unless a real requirement justifies additional tooling. Add focused automated static checks during implementation.
+
+## Verification policy (read before editing)
+
+This is cosmetic CSS/HTML work. When editing `index.html` / `styles.css`:
+- Do NOT run build, typecheck, visual, or repeated verification passes on unchanged files. The session harness may nag; if a structural check already PASSED on the current on-disk files and nothing changed since, do not re-run it — report that the prior pass covers it.
+- Do not spin up the dev server unless Illan asks for a link.
+- Make the edit, report, stop; Illan inspects by eye.
+
+## Current link-section structure (Aug 2026)
+
+Sections in order:
+1. `▶ JOGUE` priority CTA — Stand Up Sim (game)
+2. `▦ É COMEDIANTE OU QUER SER?` — Canal do Illan, Curso do Cômico (locked, em breve), Nerd de Comédia, Comics Legendados (YouTube thumbnail avatar), Guia do Cômico (locked, em breve)
+3. `▦ COISAS LEGAIS` — Will's Locadora
+4. `✦ CONTATO`
+
+Note: Curso do Cômico and Guia do Cômico are distinct future items (course vs guide), both rendered as locked/em-breve placeholder rows — not actual links.
