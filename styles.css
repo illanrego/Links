@@ -356,6 +356,11 @@ h1 {
   background-size: cover;
 }
 
+.course-icon::before {
+  background-image: url("imagens/comediante-21-4x6-1787705391-199x300.jpg");
+  background-size: cover;
+}
+
 .avatar1-icon::before {
   background-image: url("imagens/avatar1-icon.png");
   background-size: cover;
