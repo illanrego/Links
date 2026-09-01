@@ -380,9 +380,10 @@ h1 {
 }
 
 .link-copy strong {
-  font-family: "Silkscreen", monospace;
-  font-size: 0.86rem;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.8rem;
   line-height: 1.22;
+  text-shadow: 2px 2px 0 #8fdcf2;
 }
 
 .link-copy small {
