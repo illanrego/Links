@@ -391,16 +391,6 @@ h1 {
   line-height: 1.15;
 }
 
-.priority-link .link-copy strong {
-  font-family: "Press Start 2P", monospace;
-  font-size: 0.8rem;
-  text-shadow: 2px 2px 0 #8fdcf2;
-}
-
-.link-group + .link-group {
-  margin-top: 1.28rem;
-}
-
 .group-heading {
   display: grid;
   gap: 0.2rem;
