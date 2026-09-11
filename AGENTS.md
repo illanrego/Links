@@ -61,8 +61,8 @@ This is cosmetic CSS/HTML work. When editing `index.html` / `styles.css`:
 
 Sections in order:
 1. `▶ JOGUE` priority CTA — Stand Up Sim (game)
-2. `▦ É COMEDIANTE OU QUER SER?` — Canal do Illan, Curso do Cômico, Nerd de Comédia, Comics Legendados (YouTube thumbnail avatar), Guia do Cômico (links to curso-do-stand-up-comic on orbitpages)
+2. `▦ É COMEDIANTE OU QUER SER?` — Canal do Illan, Curso do Cômico (locked, em breve), Nerd de Comédia, Comics Legendados (YouTube thumbnail avatar), Guia do Cômico (locked, em breve)
 3. `▦ COISAS LEGAIS` — Will's Locadora
 4. `✦ CONTATO`
 
-Note: Curso do Cômico and Guia do Cômico are distinct future items (course vs guide). Curso is an active link; Guia do Cômico was unlocked to point at the course URL on orbitpages (same site the course lives on).
+Note: Curso do Cômico and Guia do Cômico are distinct future items (course vs guide), both rendered as locked/em-breve placeholder rows — not actual links.
