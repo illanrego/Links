@@ -347,6 +347,10 @@ h1 {
   background-image: url("imagens/github-pixelated.png");
 }
 
+.linkedin-icon::before {
+  background-image: url("imagens/linkedin-pixelated.png");
+}
+
 .wills-locadora-icon::before {
   background-image: url("imagens/wills-locadora-pixel-icon.png");
 }
